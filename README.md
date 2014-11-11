@@ -9,21 +9,24 @@ Run the following command to clone the NodeJS module template and kick-start you
 
 	git clone https://github.com/damyanbogoev/nodejs-module-init.git
 
-This module template requires the following npm packages installed globally:
+The module dependencies should be installed using:
+	
+	npm install
+
+**NOTE: You should remove the .git folder and modify the README.md file deployed with the module template.**
+
+## Must-Have Node Module Packages ##
+
+This module template requires the following module packages installed globally:
 
 - grunt-cli;
-- grunt;
 - mocha;
 
 You could install them using this command:
 
 	npm install package-name -g
 
-The module dependencies should be installed using:
-	
-	npm install
-
-## grunt tasks ##
+## Grunt tasks ##
 
 **JSHint**
 
@@ -47,7 +50,7 @@ Run the following command to execute your test suite:
 
 **Watch**
 
-To start the watch grunt task which internally executes the jshint and mocha (test) tasks, you should run the following command:
+To start the watch Grunt task which internally executes the jshint and mocha (test) tasks, you should run the following command:
 
 	grunt 
 
