@@ -1,6 +1,6 @@
 NodeJS module template
 ======================
-
+http://www.damyanon.net/nodejs-module-init/
 ## Getting Started ##
 
 **Install**
